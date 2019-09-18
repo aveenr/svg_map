@@ -1,0 +1,58 @@
+#large_exhibits {
+    stroke: magenta;
+    stroke-opacity: 1;
+    stroke-dasharray:none;
+    fill-opacity:1;
+    opacity:1;
+}
+
+
+rect#rect_left {
+    fill: white;
+    transition: fill 0.5s;
+}
+
+rect#rect_left:hover {
+    fill: black;
+    opacity: 0.5s;
+}
+
+rect#rect_right {
+    fill: #0a6811;;
+    transition: fill 0.5s;
+}
+
+rect#rect_right:hover {
+    fill: black;
+    opacity: 0.5;
+}
+
+path#squiggle {
+    fill: #ebf0a7;
+    transition: fill 0.5s;
+}
+
+path#squiggle:hover {
+    fill: purple;
+    opacity: 0.5;
+}
+
+path#triangle {
+    fill: cyan;
+    transition: fill 0.5s;
+}
+
+path#triangle:hover {
+    fill: orange;
+    opacity: 0.5s;
+}
+
+ellipse#circle {
+    fill: #1925cc;
+    transition: fill 0.5s;
+}
+
+ellipse#circle:hover {
+    fill: orange;
+    opacity: 0.5s;
+}
