@@ -10,6 +10,8 @@
 rect#rect_left {
     fill: white;
     transition: fill 0.5s;
+    stroke-width:10;
+    stroke-miterlimit:4;
 }
 
 rect#rect_left:hover {
@@ -20,16 +22,22 @@ rect#rect_left:hover {
 rect#rect_right {
     fill: #0a6811;;
     transition: fill 0.5s;
+    stroke-width:10;
+    stroke-miterlimit:4;
 }
 
 rect#rect_right:hover {
-    fill: black;
+    fill: brown;
     opacity: 0.5;
 }
 
 path#squiggle {
     fill: #ebf0a7;
     transition: fill 0.5s;
+    stroke-width:10;
+    stroke-linecap:butt;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
 }
 
 path#squiggle:hover {
@@ -40,16 +48,23 @@ path#squiggle:hover {
 path#triangle {
     fill: cyan;
     transition: fill 0.5s;
+    stroke-width:10;
+    stroke-linecap:butt;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
 }
 
 path#triangle:hover {
-    fill: orange;
+    fill: yellowgreen;
     opacity: 0.5s;
 }
 
 ellipse#circle {
     fill: #1925cc;
     transition: fill 0.5s;
+    display:inline;
+    stroke-width:10;
+    stroke-miterlimit:4;
 }
 
 ellipse#circle:hover {
